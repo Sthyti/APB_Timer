@@ -1,0 +1,1 @@
+Built an APB-based countdown timer in Verilog with a 3-register interface (load value, control, status) — write path is registered, read path is combinational, following standard APB protocol behavior. Timer counts down from a programmed value, auto-stops at zero, and asserts a done flag; simulated two consecutive timer runs to verify correct behavior
